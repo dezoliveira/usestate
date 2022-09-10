@@ -12,7 +12,10 @@ function App() {
   return (
     <div className="App">
       <h2>Meu nome é: {name}</h2>
-      <input type="text" value={name} onChange={(e) => setName(e.target.value)}/>
+      <input 
+        type="text"
+        value={name} 
+        onChange={(e) => setName(e.target.value)}/>
       <div>
         <p>Número: {number}</p>
         <button onClick={changeNumber}>Mudar numero!</button>
